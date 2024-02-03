@@ -1,0 +1,50 @@
+@use 'variables';
+@use 'typography';
+
+// border
+
+//margin-top
+.mt-0 {
+    margin-top: variables.$mt-0;
+}
+
+.mt-sm {margin-top: variables.$mt-sm;
+}
+
+.mt-md {
+    margin-top: variables.$mt-md;
+}
+
+.mt-lg {
+    margin-top: variables.$mt-lg;
+}
+
+
+//margin-bottom
+.mb-0 {
+    margin-bottom: variables.$mb-0;
+}
+
+.mb-sm {
+    margin-bottom: variables.$mb-sm;
+}
+
+.mb-md {
+    margin-bottom: variables.$mb-md;
+}
+
+.mb-lg {
+    margin-bottom: variables.$mb-lg;
+}
+
+
+
+//padding
+.text-center{
+    text-align: center;
+}
+
+//Strong
+.text-strong{
+    font-weight: typography.$font-bold;
+}

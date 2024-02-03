@@ -1,0 +1,55 @@
+// @use 'sass.color';
+@use 'variables';
+@use 'typography';
+@use 'styles';
+
+// Universal units
+
+body {
+    font-family:variables.$font-stack;
+    font-size: 100%;
+}
+
+//Headings
+h1{
+    font-size: typography.$font-xxl;
+    font-weight: typography.$font-black;
+}
+
+h2{
+    font-size: typography.$font-xl;
+    font-weight: typography.$font-bold;
+}
+
+//strong
+strong {
+    font-weight: typography.$font-bold;
+}
+
+//links
+a {
+    display: inline-block;
+    text-decoration: underline;
+    color: variables.$primary-color;
+
+    &:hover{
+        text-decoration: none;
+    }
+}
+
+//Button
+
+.btn {
+    @include styles.btn;
+}
+
+.btn-primary{
+    @include styles.btn($bgcolor: variables.$primary-color)
+}
+
+
+button {
+    @include styles.btn($bgcolor: variables.$default-color); 
+}
+
+

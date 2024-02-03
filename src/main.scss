@@ -1,0 +1,10 @@
+//use _reset partial
+// @use 'reset';
+@use 'variables';
+@use 'utilities';
+@use 'base';
+
+// Create a CSS reset - remove default styles from the browser
+// https://github.com/elad2412/the-new-css-reset
+// base {default styles element},
+// Partial - typography {font-sizes, font-weights}, base {default styles element}
